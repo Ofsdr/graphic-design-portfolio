@@ -1,1 +1,20 @@
 @import "node_modules/bootstrap/scss/bootstrap";
+.block {
+    background-color: #ddd;
+    border: solid 1px #aaa;
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+}
+
+.mainblock {
+    min-height: 400px;
+    margin-bottom: 100px;
+}
+.paper {
+    min-height: 70px;
+    margin-bottom: 120px;
+}
+.mainImage {
+    min-height: 400px;
+}
