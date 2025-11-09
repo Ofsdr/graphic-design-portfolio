@@ -11999,4 +11999,14 @@ textarea.form-control-lg {
 
 .mainImage {
   min-height: 400px;
+  margin-bottom: 200px;
+}
+
+.mainText {
+  min-height: 300px;
+  margin-bottom: 200px;
+}
+
+.mainFooter {
+  min-height: 400px;
 }/*# sourceMappingURL=style.css.map */
