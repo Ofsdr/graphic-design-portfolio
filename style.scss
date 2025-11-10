@@ -1,4 +1,6 @@
 @import "node_modules/bootstrap/scss/bootstrap";
+
+
 .block {
     background-color: #ddd;
     border: solid 1px #aaa;
@@ -25,4 +27,19 @@
 }
 .mainFooter {
     min-height: 400px;
+}
+
+
+
+
+
+
+// site
+.Image1 {
+    min-height: 400px;
+    margin-bottom: 200px;
+}
+.pSen {
+    min-height: 200px;
+    margin-bottom: 400px;
 }
