@@ -11987,9 +11987,30 @@ textarea.form-control-lg {
   height: 100%;
 }
 
+.drawn-text {
+  font-family: "Indie Flower", cursive;
+  font-size: 48px;
+  color: #222;
+}
+
 .mainblock {
   min-height: 400px;
   margin-bottom: 100px;
+  position: relative;
+}
+.mainblock .img1 {
+  min-height: 500px;
+  position: absolute;
+  transform: translateX(-250px) translateY(-50px);
+}
+.mainblock .welcomeText {
+  z-index: 1;
+  font-size: 60px;
+  font-weight: 700;
+  top: 0;
+  left: 0;
+  position: absolute;
+  transform: translateX(250px);
 }
 
 .paper {
@@ -12009,6 +12030,15 @@ textarea.form-control-lg {
 
 .mainFooter {
   min-height: 400px;
+}
+
+.navbarMenu {
+  background-color: #aaa;
+  font-size: 20px;
+}
+
+.navbar-brand {
+  transform: translateX(40px);
 }
 
 .Image1 {

@@ -9,27 +9,63 @@
     height: 100%;
 }
 
+.drawn-text {
+    font-family: 'Indie Flower', cursive;
+    font-size: 48px;
+    color: #222;
+}
+
 .mainblock {
     min-height: 400px;
     margin-bottom: 100px;
+    position: relative;
+
+    .img1 {
+        min-height: 500px;
+        position: absolute;
+        transform: translateX(-250px) translateY(-50px);
+
+    }
+
+    .welcomeText {
+        z-index: 1;
+        font-size: 60px;
+        font-weight: 700;
+        top: 0;
+        left: 0;
+        position: absolute;
+        transform: translateX(250px);
+    }
 }
+
 .paper {
     min-height: 70px;
     margin-bottom: 120px;
 }
+
 .mainImage {
     min-height: 400px;
     margin-bottom: 200px;
 }
+
 .mainText {
     min-height: 300px;
     margin-bottom: 200px;
 }
+
 .mainFooter {
     min-height: 400px;
 }
 
+.navbarMenu {
+    background-color: #aaa;
+    font-size: 20px;
+}
 
+.navbar-brand {
+    transform: translateX(40px);
+
+}
 
 
 
@@ -39,6 +75,7 @@
     min-height: 400px;
     margin-bottom: 200px;
 }
+
 .pSen {
     min-height: 200px;
     margin-bottom: 400px;
