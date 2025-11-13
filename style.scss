@@ -1,6 +1,7 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 
 
+
 .block {
     background-color: #ddd;
     border: solid 1px #aaa;
@@ -17,30 +18,36 @@
 
 .mainblock {
     min-height: 400px;
-    margin-bottom: 100px;
+    margin-bottom: 300px;
     position: relative;
 
     .img1 {
-        min-height: 500px;
+        min-height: 600px;
         position: absolute;
-        transform: translateX(-250px) translateY(-50px);
+        transform: translateX(-300px) translateY(-50px);
+        border-bottom: #222 solid 10px;
 
     }
 
     .welcomeText {
         z-index: 1;
-        font-size: 60px;
+        font-size: 80px;
         font-weight: 700;
         top: 0;
         left: 0;
         position: absolute;
-        transform: translateX(250px);
+        transform: translateX(110px);
+        
+
     }
 }
 
 .paper {
     min-height: 70px;
     margin-bottom: 120px;
+    .img2 {
+        min-height: 700px;
+    }
 }
 
 .mainImage {
